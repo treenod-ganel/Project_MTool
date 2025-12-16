@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290eeca9e2d15b1479caf73e118ec39e, type: 3}
+  m_Name: DefaultFoldersPath
+  m_EditorClassIdentifier: 
+  defaultFoldersPath:
+  - 01.Script
+  - 02.Sprite
+  - 03.Model
+  - 04.Prefab
+  - 05.Animation
+  - 06.Audio
+  - 07.Material
+  - 08.SO
