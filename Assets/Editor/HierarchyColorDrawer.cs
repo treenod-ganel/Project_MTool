@@ -4,6 +4,8 @@ using UnityEditor;
 [InitializeOnLoad]
 public static class HierarchyColorDrawer
 {
+    private const float width = 2.5f;
+
     static HierarchyColorDrawer()
     {
         EditorApplication.hierarchyWindowItemOnGUI += OnHierarchyWindowItemOnGUI;
@@ -20,6 +22,8 @@ public static class HierarchyColorDrawer
         Color color = hierarchyColor.color;
         color.a = 0.3f;
 
-        EditorGUI.DrawRect(selectionRect, color);
+        var rect = new Rect(selectionRect.x - 5, selectionRect.y, width, selectionRect.height);
+
+        EditorGUI.DrawRect(rect, color);
     }
 }
